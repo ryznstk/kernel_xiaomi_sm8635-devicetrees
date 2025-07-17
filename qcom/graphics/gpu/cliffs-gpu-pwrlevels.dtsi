@@ -11,14 +11,14 @@
 		/* Overclock */
 		qcom,gpu-pwrlevel@0 {
 			reg = <0>;
-			qcom,gpu-freq = <1114000000>;
+			qcom,gpu-freq = <1050000000>;
 			qcom,level = <RPMH_REGULATOR_LEVEL_TURBO_L2>;
 
 			qcom,bus-freq = <15>;
 			qcom,bus-min = <9>;
 			qcom,bus-max = <15>;
 
-			qcom,acd-level = <0x88285FFD>;
+			qcom,acd-level = <0x88275FFD>;
 		};
 
 		/* Turbo_L2*/
@@ -154,14 +154,14 @@
 		/* Underclock */
 		qcom,gpu-pwrlevel@11 {
 			reg = <11>;
-			qcom,gpu-freq = <100000000>;
+			qcom,gpu-freq = <150000000>;
 			qcom,level = <RPMH_REGULATOR_LEVEL_LOW_SVS_D1>;
 
 			qcom,bus-freq = <1>;
 			qcom,bus-min = <1>;
 			qcom,bus-max = <3>;
 
-			qcom,acd-level = <0x882F5FFD>;
+			qcom,acd-level = <0x882E5FFD>;
 		};
 	};
 };
