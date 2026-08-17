@@ -236,6 +236,9 @@
 		goodix,config-name = "goodix_cfg_group_peridot_csot.bin";
 		goodix,firmware-name-second = "goodix_firmware_peridot_csot_second.bin";
 		goodix,config-name-second = "goodix_cfg_group_peridot_csot_second.bin";
+		goodix,touch-expert-array = <2 3 2 2
+					     4 3 3 2
+					     3 3 4 2>;
 
 		goodix,ts-id1-gpio = <&tlmm 31 GPIO_ACTIVE_LOW>;
 		goodix,ts-id2-gpio = <&tlmm 46 GPIO_ACTIVE_LOW>;
